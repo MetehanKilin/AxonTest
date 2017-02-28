@@ -1,0 +1,6 @@
+TerminWiederwahlV2Data #class
+mein.projekt.TerminWiederwahlV2 #namespace
+Termin mein.projekt.Termin #field
+Termin PERSISTENT #fieldModifier
+Terminliste terminwahlkopV1.Terminliste #field
+Terminliste PERSISTENT #fieldModifier

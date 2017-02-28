@@ -1,0 +1,16 @@
+Termin #class
+mein.projekt #namespace
+Betreff String #field
+Betreff PERSISTENT #fieldModifier
+Beschreibung String #field
+Beschreibung PERSISTENT #fieldModifier
+Person mein.projekt.Person #field
+Person PERSISTENT #fieldModifier
+Datum Date #field
+Datum PERSISTENT #fieldModifier
+Ort String #field
+Ort PERSISTENT #fieldModifier
+ab Time #field
+ab PERSISTENT #fieldModifier
+bis Time #field
+bis PERSISTENT #fieldModifier

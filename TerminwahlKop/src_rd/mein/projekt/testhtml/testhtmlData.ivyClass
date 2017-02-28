@@ -1,0 +1,4 @@
+testhtmlData #class
+mein.projekt.testhtml #namespace
+data mein.projekt.Data #field
+data PERSISTENT #fieldModifier

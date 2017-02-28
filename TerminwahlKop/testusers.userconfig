@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<userConfig>
+    <user>
+        <username>Kilin</username>
+        <password>123</password>
+        <fullName>Kilin Professor</fullName>
+        <emailAddress>metehan.kilin@gmail.com</emailAddress>
+        <role>teacher</role>
+        <additionalProperty>
+            <name>Alter</name>
+            <value>25</value>
+        </additionalProperty>
+    </user>
+    <user>
+        <username>Ralf</username>
+        <password>123</password>
+        <fullName>Ralf Student</fullName>
+        <emailAddress>ralf.hornek@gmail.com</emailAddress>
+        <role>student</role>
+        <additionalProperty>
+            <name>Alter</name>
+            <value>20</value>
+        </additionalProperty>
+    </user>
+    <user>
+        <username>Pavan</username>
+        <password>123</password>
+        <fullName>Pavan Admin</fullName>
+        <emailAddress>pasingh-htwg@hotmail.de</emailAddress>
+        <role>Admin</role>
+        <additionalProperty>
+            <name>Alter</name>
+            <value>20</value>
+        </additionalProperty>
+    </user>
+    <user>
+        <username>Eugen</username>
+        <password>123</password>
+        <fullName>Eugen Eugen</fullName>
+        <emailAddress>gering.eugen@gmail.com</emailAddress>
+        <additionalProperty>
+            <name>Alter</name>
+            <value>18</value>
+        </additionalProperty>
+    </user>
+</userConfig>

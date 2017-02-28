@@ -1,0 +1,6 @@
+acceptTerminv1Data #class
+mein.projekt.acceptTerminv1 #namespace
+Termin mein.projekt.Termin #field
+Termin PERSISTENT #fieldModifier
+akzeptiereTermin Boolean #field
+akzeptiereTermin PERSISTENT #fieldModifier

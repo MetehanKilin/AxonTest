@@ -1,0 +1,20 @@
+Data #class
+mein.projekt #namespace
+product String #field
+product PERSISTENT #fieldModifier
+releaseDate Date #field
+releaseDate PERSISTENT #fieldModifier
+price Number #field
+price PERSISTENT #fieldModifier
+time DateTime #field
+time PERSISTENT #fieldModifier
+Termin mein.projekt.Termin #field
+Termin PERSISTENT #fieldModifier
+ZeitfuerTermin mein.projekt.ZeitfuerTermin #field
+ZeitfuerTermin PERSISTENT #fieldModifier
+Email String #field
+Email PERSISTENT #fieldModifier
+akzeptiereTermin Boolean #field
+akzeptiereTermin PERSISTENT #fieldModifier
+Terminliste terminwahlkopV1.Terminliste #field
+Terminliste PERSISTENT #fieldModifier

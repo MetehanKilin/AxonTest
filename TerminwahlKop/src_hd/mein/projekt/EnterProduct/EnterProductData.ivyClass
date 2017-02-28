@@ -1,0 +1,4 @@
+EnterProductData #class
+mein.projekt.EnterProduct #namespace
+data mein.projekt.Data #field
+data PERSISTENT #fieldModifier

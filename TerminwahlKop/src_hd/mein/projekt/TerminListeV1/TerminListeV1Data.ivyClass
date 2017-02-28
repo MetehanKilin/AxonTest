@@ -1,0 +1,6 @@
+TerminListeV1Data #class
+mein.projekt.TerminListeV1 #namespace
+Termin mein.projekt.Termin #field
+Termin PERSISTENT #fieldModifier
+terminliste List<terminwahlkopV1.Termin> #field
+terminliste PERSISTENT #fieldModifier

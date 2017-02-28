@@ -1,0 +1,12 @@
+ZeitfuerTermin #class
+mein.projekt #namespace
+ab Time #field
+ab PERSISTENT #fieldModifier
+bis Time #field
+bis PERSISTENT #fieldModifier
+Datum Date #field
+Datum PERSISTENT #fieldModifier
+Ort String #field
+Ort PERSISTENT #fieldModifier
+Kommentar Record #field
+Kommentar PERSISTENT #fieldModifier

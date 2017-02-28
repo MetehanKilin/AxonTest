@@ -1,0 +1,4 @@
+adsData #class
+mein.projekt.ads #namespace
+data mein.projekt.Data #field
+data PERSISTENT #fieldModifier

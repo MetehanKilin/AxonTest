@@ -1,0 +1,4 @@
+TerminV1Data #class
+mein.projekt.TerminV1 #namespace
+Termin mein.projekt.Termin #field
+Termin PERSISTENT #fieldModifier

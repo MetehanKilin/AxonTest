@@ -1,0 +1,4 @@
+TerminWiederwahlData #class
+mein.projekt.TerminWiederwahl #namespace
+Termin mein.projekt.Termin #field
+Termin PERSISTENT #fieldModifier

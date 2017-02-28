@@ -1,0 +1,4 @@
+TerminwahlDialogData #class
+mein.projekt.TerminwahlDialog #namespace
+Termin mein.projekt.Termin_alt_lang #field
+Termin PERSISTENT #fieldModifier

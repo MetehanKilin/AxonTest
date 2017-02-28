@@ -1,0 +1,20 @@
+Termin_alt_lang #class
+mein.projekt #namespace
+Titel String #field
+Titel PERSISTENT #fieldModifier
+Beschreibung String #field
+Beschreibung PERSISTENT #fieldModifier
+Teilnehmer String #field
+Teilnehmer PERSISTENT #fieldModifier
+Datum Date #field
+Datum PERSISTENT #fieldModifier
+Uhrzeit DateTime #field
+Uhrzeit PERSISTENT #fieldModifier
+Dauer String #field
+Dauer PERSISTENT #fieldModifier
+Ort String #field
+Ort PERSISTENT #fieldModifier
+ab Time #field
+ab PERSISTENT #fieldModifier
+bis Time #field
+bis PERSISTENT #fieldModifier
