@@ -1,5 +1,5 @@
 [Ivy]
-[>Created: Sat Feb 25 16:47:04 CET 2017]
+[>Created: Tue Feb 28 16:26:35 CET 2017]
 15A7484C7C351A19 3.19 #module
 >Proto >Proto Collection #zClass
 Tg0 yesno_Terminvereinbarung_ProfessorV2 Big #zClass
@@ -57,10 +57,10 @@ Tg0 f0 @C|.xml '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 </elementInfo>
 ' #txt
 Tg0 f0 @C|.responsibility teacher #txt
-Tg0 f0 516 169 30 30 -41 17 #rect
+Tg0 f0 124 161 30 30 -41 17 #rect
 Tg0 f0 @|StartRequestIcon #fIcon
 Tg0 f2 type mein.projekt.Data #txt
-Tg0 f2 1025 169 30 30 0 15 #rect
+Tg0 f2 633 161 30 30 0 15 #rect
 Tg0 f2 @|EndIcon #fIcon
 Tg0 f7 beanConfig '"{/emailSubject ""Termin angenommen""/emailFrom ""pasingh-htwg@hotmail.de""/emailReplyTo ""gering.eugen@gmail.com""/emailTo ""gering.eugen@gmail.com""/emailCC """"/emailBCC """"/exceptionMissingEmailAttachments ""false""/emailMessage ""Axon Mail Test""/emailAttachments * }"' #txt
 Tg0 f7 type mein.projekt.Data #txt
@@ -74,10 +74,10 @@ Tg0 f7 @C|.xml '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
     </language>
 </elementInfo>
 ' #txt
-Tg0 f7 976 266 128 44 -60 -8 #rect
+Tg0 f7 584 258 128 44 -60 -8 #rect
 Tg0 f7 @|EMailIcon #fIcon
 Tg0 f6 expr out #txt
-Tg0 f6 1040 266 1040 199 #arcP
+Tg0 f6 648 258 648 191 #arcP
 Tg0 f6 0 0.8512316971586235 0 0 #arcLabel
 Tg0 f9 targetWindow NEW #txt
 Tg0 f9 targetDisplay TOP #txt
@@ -105,7 +105,7 @@ Tg0 f9 @C|.xml '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
     </language>
 </elementInfo>
 ' #txt
-Tg0 f9 624 162 112 44 -26 -16 #rect
+Tg0 f9 232 154 112 44 -26 -16 #rect
 Tg0 f9 @|RichDialogIcon #fIcon
 Tg0 f1 richDialogId mein.projekt.acceptTerminv2 #txt
 Tg0 f1 startMethod start(mein.projekt.Termin) #txt
@@ -127,22 +127,22 @@ TaskA.ROL=student
 TaskA.SKIP_TASK_LIST=false
 TaskA.TYPE=0' #txt
 Tg0 f1 type mein.projekt.Data #txt
-Tg0 f1 728 266 112 44 0 -8 #rect
+Tg0 f1 336 258 112 44 0 -8 #rect
 Tg0 f1 @|UserTaskIcon #fIcon
 Tg0 f3 expr out #txt
-Tg0 f3 546 184 624 184 #arcP
+Tg0 f3 154 176 232 176 #arcP
 Tg0 f4 expr out #txt
 Tg0 f4 type mein.projekt.Data #txt
 Tg0 f4 var in1 #txt
-Tg0 f4 680 206 728 288 #arcP
-Tg0 f4 1 680 288 #addKink
+Tg0 f4 288 198 336 280 #arcP
+Tg0 f4 1 288 280 #addKink
 Tg0 f4 1 0.11430444396272517 0 0 #arcLabel
 Tg0 f8 type mein.projekt.Data #txt
-Tg0 f8 880 272 32 32 0 16 #rect
+Tg0 f8 488 264 32 32 0 16 #rect
 Tg0 f8 @|AlternativeIcon #fIcon
 Tg0 f10 expr data #txt
 Tg0 f10 outCond ivp=="TaskA.ivp" #txt
-Tg0 f10 840 288 880 288 #arcP
+Tg0 f10 448 280 488 280 #arcP
 Tg0 f5 expr in #txt
 Tg0 f5 outCond in.akzeptiereTermin #txt
 Tg0 f5 .xml '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
@@ -155,7 +155,7 @@ Tg0 f5 .xml '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
     </language>
 </elementInfo>
 ' #txt
-Tg0 f5 912 288 976 288 #arcP
+Tg0 f5 520 280 584 280 #arcP
 Tg0 f11 richDialogId mein.projekt.TerminWiederwahlV2 #txt
 Tg0 f11 startMethod start(mein.projekt.Termin) #txt
 Tg0 f11 requestActionDecl '<mein.projekt.Termin Termin> param;' #txt
@@ -176,7 +176,7 @@ TaskA.ROL=Everybody
 TaskA.SKIP_TASK_LIST=false
 TaskA.TYPE=0' #txt
 Tg0 f11 type mein.projekt.Data #txt
-Tg0 f11 840 74 112 44 0 -8 #rect
+Tg0 f11 448 66 112 44 0 -8 #rect
 Tg0 f11 @|UserTaskIcon #fIcon
 Tg0 f13 expr in #txt
 Tg0 f13 type mein.projekt.Data #txt
@@ -191,20 +191,20 @@ Tg0 f13 .xml '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
     </language>
 </elementInfo>
 ' #txt
-Tg0 f13 896 272 896 118 #arcP
+Tg0 f13 504 264 504 110 #arcP
 Tg0 f13 0 0.5352639711168538 0 0 #arcLabel
 Tg0 f14 expr data #txt
 Tg0 f14 outCond ivp=="TaskA.ivp" #txt
 Tg0 f14 type mein.projekt.Data #txt
 Tg0 f14 var in2 #txt
-Tg0 f14 840 96 784 266 #arcP
-Tg0 f14 1 784 96 #addKink
+Tg0 f14 448 88 392 258 #arcP
+Tg0 f14 1 392 88 #addKink
 Tg0 f14 1 0.16429333944987598 0 0 #arcLabel
 Tg0 f12 template "" #txt
 Tg0 f12 type mein.projekt.Data #txt
 Tg0 f12 skipLink skip.ivp #txt
 Tg0 f12 sortLink sort.ivp #txt
-Tg0 f12 1120 274 112 44 0 -8 #rect
+Tg0 f12 728 266 112 44 0 -8 #rect
 Tg0 f12 @|PageIcon #fIcon
 >Proto Tg0 .type mein.projekt.Data #txt
 >Proto Tg0 .processKind NORMAL #txt
